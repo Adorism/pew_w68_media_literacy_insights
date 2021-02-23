@@ -7,6 +7,7 @@ I am using survey information made available by the PEW research center's Americ
 ## Data
 
 ## Process and Methodology
+The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used Spearman's Rank Order Correlation to examine relatinoships between pairs of variables. 
 
 ## Key Insights
 
