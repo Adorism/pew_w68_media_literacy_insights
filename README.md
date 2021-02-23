@@ -10,7 +10,7 @@ My dataset comes from the PEW Research Center's American Trends Panel: Wave 68. 
 More information about the columns I chose to investigate can be found in a seperate .md file in the data directory. 
 
 ## Process and Methodology
-The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used Spearman's Rank Order Correlation to examine relatinoships between pairs of variables. 
+The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used Spearman's Rank Order Correlation to examine relationships between pairs of variables. 
 
 ## Key Insights
 
