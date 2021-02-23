@@ -15,6 +15,8 @@ The survey results are encoded and answers are categorical, rather than truly nu
 
 ## Key Insights
 
+## Future Considerations
+
 ## Code
 
 ## Notes
