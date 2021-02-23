@@ -5,7 +5,7 @@ I am using survey information made available by the PEW research center's Americ
 ## Background
 
 ## Data
-My dataset comes from the PEW Research Center's American Trends Panel: Wave 68. It consists of 146 columns and 9654 rows. Each row represents a survey respondent. For the purposes of my analysis, I have pulled out 26 rows to examine the data more closely. 15 of those rows are categorized answers to survey questions relating to media coverage of the pandemic. The other ten rows list demographic qualities of respondents. 
+My dataset comes from the PEW Research Center's American Trends Panel: Wave 68. It consists of 146 columns and 9654 rows. Each row represents a survey respondent. For the purposes of my analysis, I have pulled out 26 rows to examine the data more closely. 15 of those rows are categorized answers to survey questions relating to media coverage of the pandemic. The other ten rows list demographic qualities of respondents. The survey questions I chose to focus on are specifically related to the consumption of news and media literacy. 
 
 More information about the columns I chose to investigate can be found in a seperate .md file in the data directory. 
 
