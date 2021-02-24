@@ -1,10 +1,12 @@
-import import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import pyreadstat
 import seaborn as sns
 
-w68spss, metaspss = pyreadstat.read_sav('./data/W68.sav', apply_value_formats = True, formats_as_category = True )
+from pew_crosstab import Cross_Tab
+
+w68spss, metaspss = pyreadstat.read_sav('../data/W68.sav', apply_value_formats = True, formats_as_category = True )
 
 fields = ['COVIDFOL_W68', 
           'COVIDCOVER1_W68', 
@@ -43,4 +45,6 @@ answers = ['COVIDFOL_W68',
 
 df68 = pd.DataFrame(w68spss)
 
-Cross_Tab(df68, answers, facets)
+graph = Cross_Tab()
+graph(df68, answers, facets)
+

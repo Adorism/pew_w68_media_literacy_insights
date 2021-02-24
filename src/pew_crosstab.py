@@ -13,7 +13,7 @@ class CrossTab():
                 crosstab_normalized = crosstab.div(crosstab.sum(1).astype(float), axis=0)
                 crosstab_normalized.plot(kind='bar', stacked=True, title='Default by ' + str(attribute) + ' class')
 
-                plt.savefig(f'./images/{facet}-{answer}") #outputs blank file
+                plt.savefig(f'./images/{facet}-{answer}') #outputs blank file
 
-if name == __main___: 
+if __name__ == "__main___": 
     CrossTab()
