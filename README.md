@@ -22,3 +22,17 @@ The survey results are encoded and answers are categorical, rather than truly nu
 ## Notes
 
 ## References
+“An Introduction to the Chi-Square Test & When to Use It | SurveyGizmo.” 2018. Alchemer. https://www.surveygizmo.com/resources/blog/introduction-to-chi-square-test-and-when-to-use-it/ (February 23, 2021).<br>
+“Catplot Python Seaborn: One Function to Rule All Plots With Categorical Variables.” 2019. Python and R Tips. https://cmdlinetips.com/2019/03/catplot-in-seaborn-python/ (February 23, 2021).<br>
+Chambliss, Charlene. 2019. “Cleaning, Analyzing, and Visualizing Survey Data in Python.” Medium. https://towardsdatascience.com/cleaning-analyzing-and-visualizing-survey-data-in-python-42747a13c713 (February 23, 2021).<br>
+Custer, Charlie. 2019. “How to Analyze Survey Data with Python for Beginners.” Dataquest. https://www.dataquest.io/blog/how-to-analyze-survey-data-python-beginner/ (February 22, 2021).<br>
+“Kendall Tau Metric - Encyclopedia of Mathematics.” https://encyclopediaofmath.org/index.php?title=Kendall_tau_metric (February 22, 2021).<br>
+Mitchell, Amy, Mark Jurkowitz, J. Baxter Oliphant, and Elisa Shearer. 2021. “Methodology.” Pew Research Center’s Journalism Project. https://www.journalism.org/2021/02/22/how-americans-navigated-the-news-in-2020-methodology/ (February 22, 2021).<br>
+NW, 1615 L. St, Suite 800Washington, and DC 20036USA202-419-4300 | Main202-857-8562 | Fax202-419-4372 | Media Inquiries. “American News Pathways.” Pew Research Center. https://www.pewresearch.org/topics/american-news-pathways/ (February 22, 2021).<br>
+“Ordinal Association.” Statistics Solutions. https://www.statisticssolutions.com/ordinal-association/ (February 22, 2021).<br>
+“Plotting with Categorical Data — Seaborn 0.11.1 Documentation.” http://seaborn.pydata.org/tutorial/categorical.html?highlight=bar%20plot (February 23, 2021).<br>
+“Scipy.Stats.Chisquare — SciPy v1.6.1 Reference Guide.” https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chisquare.html (February 23, 2021).<br>
+“Spearman’s Rank-Order Correlation - A Guide to When to Use It, What It Does and What the Assumptions Are.” https://statistics.laerd.com/statistical-guides/spearmans-rank-order-correlation-statistical-guide.php (February 22, 2021).<br>
+“(Tutorial) Handling Categorical Data in Python.” 2020. DataCamp Community. https://www.datacamp.com/community/tutorials/categorical-data (February 22, 2021).<br>
+“Understanding Chi Square | Practical Surveys.” https://practicalsurveys.com/reporting/chisquare.php (February 23, 2021).<br>
+
