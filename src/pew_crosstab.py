@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
 class CrossTab():
 
 
@@ -9,9 +12,9 @@ class CrossTab():
     def cross_tabulation(self):
         for facet in self.demo_list:
             for answer in self.q_list:
-                crosstab = pd.crosstab(df[facet], df[answer], normalize='index')
+                crosstab = pd.crosstab(self.df[facet], self.df[answer], normalize='index')
                 crosstab_normalized = crosstab.div(crosstab.sum(1).astype(float), axis=0)
-                crosstab_normalized.plot(kind='bar', stacked=True, title='Default by ' + str(attribute) + ' class')
+                crosstab_normalized.plot(kind='bar', stacked=True, title=str(facet)+str(answer))
 
                 plt.savefig(f'./images/{facet}-{answer}') #outputs blank file
 
