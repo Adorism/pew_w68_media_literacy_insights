@@ -1,5 +1,7 @@
 # Media Literacy Insights from PEW Research Center's American Trends Panel: Wave 68 
 
+![Intro image with a cellphone opened to headlines and the guiding question for this dataset exploration](images.News%20Media%20Literacy.png)
+
 ## Background
 For the past five years, I have worked as a school librarian teaching information literacy to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my job, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic. 
 <br>
