@@ -20,8 +20,8 @@ Explanation of contingency tables<br>
 Explanation of chi-sq testing<br>
 Cramer's V Chi-square statistic: measures the strength of association between two nominal variables. 
 0 = no association between the two variables 
-1 = a string association between two variables
-![Formula for Cramer's V](https://www.empirical-methods.hslu.ch/files/2017/02/calculating-the-cramers-v-coefficient-chi-square-contingency.png)
+1 = a string association between two variables<br>
+![Formula for Cramer's V](https://www.empirical-methods.hslu.ch/files/2017/02/calculating-the-cramers-v-coefficient-chi-square-contingency.png)<br>
 
 ## Key Insights
 
