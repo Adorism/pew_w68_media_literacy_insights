@@ -9,7 +9,7 @@ class BarNums():
         self.q_cols = q_cols
         self.dem_cols = dem_cols
 
-    def horizon_bars():
+    def horizon_bars(self):
         for facet in self.dem_cols:
             for answer in self.q_cols:
                 sns.set(style="darkgrid")
@@ -19,12 +19,12 @@ class BarNums():
 
                 for p in ax.patches:
                     height = p.get_height()
-                    ax.test(p.get_x()+p.get_width()/2, 
+                    ax.text(p.get_x()+p.get_width()/2, 
                     height + 3, 
-                    '{:1.2f}'.format(height/df.shape[0]),
+                    '{:1.2f}'.format(height/self.df.shape[0]),
                     ha = "center")
                     
-                    plt.savefig(f'..images/chi-{facet}-{answer}.png')
+                    plt.savefig(f'../images/chi-{facet}-{answer}.png')
 
 
 if __name__ == "__main__":

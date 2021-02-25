@@ -4,7 +4,7 @@ import pyreadstat
 
 
 from pew_crosstab import CrossTab
-from pew_chis import 
+from pew_bars import BarNums
 
 w68spss, metaspss = pyreadstat.read_sav('../data/W68.sav', apply_value_formats = True, formats_as_category = True )
 
@@ -45,8 +45,9 @@ answers = ['COVIDFOL_W68',
 
 df68 = pd.DataFrame(w68spss)
 
+#un-comment the Class you want to run. Or do them simultaneously to get all of the plots in one run. 
 #graph = CrossTab(df = df68, q_list=answers, demo_list=facets)
 #graph.cross_tabulation()
 
-viz_plots = BarNums(df=df68, q_cols=answers, dem_cols=facets)
-viz_plots.horizon_bars()
+#viz_plots = BarNums(df=df68, q_cols=answers, dem_cols=facets)
+#viz_plots.horizon_bars()
