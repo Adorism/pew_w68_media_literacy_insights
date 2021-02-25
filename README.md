@@ -1,5 +1,7 @@
 # Media Literacy Insights from PEW Research Center's American Trends Panel: Wave 68 
 
+![Intro image with a cellphone opened to headlines and the guiding question for this dataset exploration](images.News%20Media%20Literacy.png)
+
 ## Background
 For the past five years, I have worked as a school librarian teaching information literacy to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my job, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic. 
 <br>
@@ -36,3 +38,4 @@ NW, 1615 L. St, Suite 800Washington, and DC 20036USA202-419-4300 | Main202-857-8
 “(Tutorial) Handling Categorical Data in Python.” 2020. DataCamp Community. https://www.datacamp.com/community/tutorials/categorical-data (February 22, 2021).<br>
 “Understanding Chi Square | Practical Surveys.” https://practicalsurveys.com/reporting/chisquare.php (February 23, 2021).<br>
 
+Image source for Intro : <span>Photo by <a href="https://unsplash.com/@thenewmalcolm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Obi Onyeador</a> on <a href="https://unsplash.com/s/photos/news?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
