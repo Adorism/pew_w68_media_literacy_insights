@@ -5,6 +5,7 @@ import pyreadstat
 
 from pew_crosstab import CrossTab
 from pew_bars import BarNums
+from cramer_chi import ContTabs
 
 w68spss, metaspss = pyreadstat.read_sav('../data/W68.sav', apply_value_formats = True, formats_as_category = True )
 
@@ -51,3 +52,6 @@ df68 = pd.DataFrame(w68spss)
 
 #viz_plots = BarNums(df=df68, q_cols=answers, dem_cols=facets)
 #viz_plots.horizon_bars()
+
+chis = ContTabs(df=df68, q_cols=answers, dem_cols=facets)
+chis.CramChi
