@@ -18,6 +18,10 @@ The survey results are encoded and answers are categorical, rather than truly nu
 Graphing<br>
 Explanation of contingency tables<br>
 Explanation of chi-sq testing<br>
+Cramer's V Chi-square statistic: measures the strength of association between two nominal variables. 
+0 = no association between the two variables 
+1 = a string association between two variables
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 ## Key Insights
 
