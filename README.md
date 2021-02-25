@@ -14,6 +14,10 @@ More information about the columns I chose to investigate can be found in a sepe
 
 ## Process and Methodology
 The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used Spearman's Rank Order Correlation to examine relationships between pairs of variables. 
+<br><br>
+Graphing<br>
+Explanation of contingency tables<br>
+Explanation of chi-sq testing<br>
 
 ## Key Insights
 
