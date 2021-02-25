@@ -21,7 +21,7 @@ Explanation of chi-sq testing<br>
 Cramer's V Chi-square statistic: measures the strength of association between two nominal variables. 
 0 = no association between the two variables 
 1 = a string association between two variables
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+![Formula for Cramer's V](./images/cramers.jpg)
 
 ## Key Insights
 
