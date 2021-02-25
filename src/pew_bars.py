@@ -15,7 +15,7 @@ class BarNums():
                 sns.set(style="darkgrid")
                 sns.set_palette("hls", 3)
                 fig, ax = plt.subplots(figsize=(20, 5))
-                ax = sns.countplot(x = facet, hue = answer, data= self.df)
+                ax = sns.countplot(x = answer, hue = facet, data= self.df)
 
                 for p in ax.patches:
                     height = p.get_height()
