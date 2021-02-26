@@ -20,7 +20,12 @@ Other quesitons in this survey addressed racial tensions, pandemic-related issue
 More information about the columns I chose to investigate can be found here. [Column Data](https://github.com/Adorism/pew_w68_media_literacy_insights/blob/main/data/column_descriptions.md "Column Data")
 
 ## Process and Methodology
-The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) and [Pearson's Chi-Squared Test] (https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) to examine relationships between pairs of variables. 
+The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) and [Pearson's Chi-Squared Test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) to examine relationships between pairs of variables. 
+
+In most cases, whether the contingency tables were normalized or not, I saw a trend in the demographic columns. 
+One of my expectations did not hold up to scrutiny. I had expected to see more evidence of a correlationi between non-metropolitan residency and difficulty navigating the media. Instead, I saw very uniform distribution in answering patterns for metropolitan and non-metropolitan residents. In fact, there is one question where that demographic facet was most influential, regarding the difficulty of finding local news relating to the pandemic. The chi-number is small. The graph indicates hardly any variation at all. Even at it's most significant, metropolitan and non-metropolitan residents show hardly any difference in the ways they answered these questions. 
+
+![Non-Significant finding](./images/image8.png)
 <br><br>
 Graphing<br>
 Explanation of contingency tables<br>
