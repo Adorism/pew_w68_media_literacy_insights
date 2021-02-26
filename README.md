@@ -17,10 +17,10 @@ The dataset consists of 146 columns and 9654 rows. Each row represents a survey 
 Other quesitons in this survey addressed racial tensions, pandemic-related issues, and the election cycle. 
 
 
-More information about the columns I chose to investigate can be found here. [Link to Column Data](https://github.com/Adorism/pew_w68_media_literacy_insights/blob/main/data/column_descriptions.md "Column Data")
+More information about the columns I chose to investigate can be found here. [Column Data](https://github.com/Adorism/pew_w68_media_literacy_insights/blob/main/data/column_descriptions.md "Column Data")
 
 ## Process and Methodology
-The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used [Link to Contingency Table Wikipedia](https://en.wikipedia.org/wiki/Contingency_table "contingency tables") and [Link to Pearson's Chi-Square: Wikipedia] (https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test "Pearson's Chi-Squared Test") to examine relationships between pairs of variables. 
+The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) and [Pearson's Chi-Squared Test] (https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) to examine relationships between pairs of variables. 
 <br><br>
 Graphing<br>
 Explanation of contingency tables<br>
