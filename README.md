@@ -48,13 +48,13 @@ A respondant's education level was also likely to influence answers to other imp
 ![Change in Time Following News](./images/image11.png)
 3: Compared to the FIRST COUPLE OF WEEKS of the outbreak, are you finding it harder or easier to understand what is happening with the outbreak?
 <br>
-![Understanding What Is Happening](.images/image2.png)
+![Understanding What Is Happening](./images/image2.png)
 4: Compared to the FIRST COUPLE OF WEEKS of the outbreak, are you seeing more or less partisan views in the news?
 <br>
 ![Partisan Views in News](./images/image13.png)
 5: Compared to the FIRST COUPLE OF WEEKS of the outbreak, are you finding it harder or easier to identify what is true and false in the news?
 <br>
-![Difficulty Determining What Is True](.images/image5.png)
+![Difficulty Determining What Is True](./images/image5.png)
 6: How much, if anything, have you heard about the theory that powerful people intentionally planned the coronavirus outbreak?
 <br>
 ![Conspiracy](./images/image8.png)
@@ -66,7 +66,7 @@ All said, education level was most frequently the most signifigant out of the th
 <br>
 ![Chi-Norm](./images/image4.png)
 <br>
-![Chi-non-Norm](.images/image10.png)
+![Chi-non-Norm](./images/image10.png)
 ## Future Considerations
 <br>
 From a technical perspective: 
