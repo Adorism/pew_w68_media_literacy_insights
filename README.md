@@ -29,7 +29,7 @@ One of my expectations did not hold up to scrutiny. I had expected to see more e
 <br><br>
 As I guessed, there were questions for which people belonging to different political parties had a noticeable pattern of different answers. However, the degree of signifigance for this demographic facet was not as strong as I had guessed it would be. 
 The most stark difference when taking this demographic feature into account can be seen in the answers to the following question: How often, if ever, do you think the news media gets the facts right about the coronavirus pandemic?
-![Most Significant Party-Related finding](.images/image6.png)
+![Most Significant Party-Related finding](./images/image6.png)
 <br>
 
 
