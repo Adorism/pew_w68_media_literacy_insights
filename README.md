@@ -24,7 +24,7 @@ The survey results are encoded and answers are categorical, rather than truly nu
 
 In most cases, whether the contingency tables were normalized or not, I saw a trend in the demographic columns. 
 One of my expectations did not hold up to scrutiny. I had expected to see more evidence of a correlationi between non-metropolitan residency and difficulty navigating the media. Instead, I saw very uniform distribution in answering patterns for metropolitan and non-metropolitan residents. In fact, there is one question where that demographic facet was most influential, regarding the difficulty of finding local news relating to the pandemic. The chi-number is small. The graph indicates hardly any variation at all. Even at it's most significant, metropolitan and non-metropolitan residents show hardly any difference in the ways they answered these questions. 
-<br>
+<br><br>
 ![Non-Significant finding](./images/image12.png)
 <br><br>
 As I guessed, there were questions for which people belonging to different political parties had a noticeable pattern of different answers. However, the degree of signifigance for this demographic facet was not as strong as I had guessed it would be. 
@@ -37,28 +37,36 @@ The most stark difference when taking this demographic feature into account can 
 You may have guessed it by now: the most significant demographic facet of this dataset in matters related to navigating media concerning the pandemic is educational level!
 As years of education went up, the likelihood that a person might believe the consipracy theory portrayed in "Plandemic" went down. 
 <br>
+<br>
 ![Plandemic True](./images/image3.png)<br><br>
 
 A respondant's education level was also likely to influence answers to other important questions. <br>
 1: How closely have you been following news about the outbreak of the coronavirus strain known as COVID-19?
 <br>
+<br>
 ![Following COVID](./images/image7.png)<br><br>
 2: Compared to the FIRST COUPLE OF WEEKS of the outbreak, are you spending more or less time getting news about the outbreak?
+<br>
 <br>
 ![Change in Time Following News](./images/image11.png)<br><br>
 3: Compared to the FIRST COUPLE OF WEEKS of the outbreak, are you finding it harder or easier to understand what is happening with the outbreak?
 <br>
+<br>
 ![Understanding What Is Happening](./images/image2.png)<br><br>
 4: Compared to the FIRST COUPLE OF WEEKS of the outbreak, are you seeing more or less partisan views in the news?
+<br>
 <br>
 ![Partisan Views in News](./images/image13.png)<br><br>
 5: Compared to the FIRST COUPLE OF WEEKS of the outbreak, are you finding it harder or easier to identify what is true and false in the news?
 <br>
+<br>
 ![Difficulty Determining What Is True](./images/image5.png)<br><br>
 6: How much, if anything, have you heard about the theory that powerful people intentionally planned the coronavirus outbreak?
 <br>
+<br>
 ![Conspiracy](./images/image8.png)<br><br>
 7: As you may know, an onine video called "Plandemic" has recieved attention for making claims that the coronavirus outbreak was planned by powerful people. Have you personally watched all or part of this online video called "Plandemic"?
+<br>
 <br>
 ![Did You Watch Plandemic?](./images/image1.png)<br><br>
 All said, education level was most frequently the most signifigant out of the three demographic facets I investigated. 
