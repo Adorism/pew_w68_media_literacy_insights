@@ -25,15 +25,13 @@ The survey results are encoded and answers are categorical, rather than truly nu
 In most cases, whether the contingency tables were normalized or not, I saw a trend in the demographic columns. 
 One of my expectations did not hold up to scrutiny. I had expected to see more evidence of a correlationi between non-metropolitan residency and difficulty navigating the media. Instead, I saw very uniform distribution in answering patterns for metropolitan and non-metropolitan residents. In fact, there is one question where that demographic facet was most influential, regarding the difficulty of finding local news relating to the pandemic. The chi-number is small. The graph indicates hardly any variation at all. Even at it's most significant, metropolitan and non-metropolitan residents show hardly any difference in the ways they answered these questions. 
 
-![Non-Significant finding](./images/image8.png)
+![Non-Significant finding](./images/image12.png)
 <br><br>
-Graphing<br>
-Explanation of contingency tables<br>
-Explanation of chi-sq testing<br>
-Cramer's V Chi-square statistic: measures the strength of association between two nominal variables. 
-0 = no association between the two variables 
-1 = a string association between two variables<br>
-![Formula for Cramer's V](https://www.empirical-methods.hslu.ch/files/2017/02/calculating-the-cramers-v-coefficient-chi-square-contingency.png)<br>
+As I guessed, there were questions for which people belonging to different political parties had a noticeable pattern of different answers. However, the degree of signifigance for this demographic facet was not as strong as I had guessed it would be. 
+The most stark difference when taking this demographic feature into account can be seen in the answers to the following question: How often, if ever, do you think the news media gets the facts right about the coronavirus pandemic?
+![Most Significant Party-Related finding](.images/image6.png)
+<br>
+
 
 ## Key Insights
 
