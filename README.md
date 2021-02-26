@@ -3,7 +3,10 @@
 ![Intro image with a cellphone opened to headlines and the guiding question for this dataset exploration](./images/News%20Media%20Literacy.png)
 
 ## Background
-For the past five years, I have worked as a school librarian teaching information literacy to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my job, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic. 
+For the past five years, I have worked as a school librarian teaching information literacy skills to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my job, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic. I often find myself wondering what the factors are that make us more or less prone to accepting faulty information? What are the factors that play into making it more difficult ot find good information? The pandemic has served to highight the importance 
+
+What factors are the most significant indicators that a population will have a difficult time finding their way through today's information landscape in search of vital information? Addtionally, I wonder, if there are demographic factors playing an important role in fact fining and media use, is there anything we can do to improve the outcomes for those demographics?
+
 <br>
 I am using survey information made available by the PEW research center's American Trends Panel: Wave 68 to seek insights on demographic factors as they relate to media literacy issues. I was excited to see that this dataset contains survey questions relating to media consumption as it related to coverage of the COVID-19 pandemic. 
 
@@ -28,6 +31,8 @@ Cramer's V Chi-square statistic: measures the strength of association between tw
 ## Future Considerations
 <br>
 From a technical perspective: 
+
+I know that there is a sizeable industry focused solely on administering and interpreting surveys. 
 
 There are incredibly useful data vizualization tools on the market that can enhance the readability of the charts I created, making the message more clear. One of those, which I tested out, is called "Flourish" (hyperlink it) and I was curious to try it out because I saw some interesting vizualizations on the web that had been created using this tool. I was looking, specifically, for a tool that could approximate the approach of many vizualizations that PEW Research creates using their own datasets, where a horizontal stacked barchart has a mid-point signifying a shift from positive to negative values. And example of such a chrt can be found here. https://www.pewresearch.org/politics/?attachment_id=20077157 When I used normalized values from contingency tables as the input for a graph on Flourish, I was able to create a rough, albeit imperfect approximation of the way that data is displayed in the PEW chart I linked. I want to know more about chart building tools in Python to see if similar graphing capabilities exist using Python. 
 
