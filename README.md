@@ -40,7 +40,7 @@ As years of education went up, the likelihood that a person might believe the co
 <br>
 ![Plandemic True](./images/image3.png)<br><br>
 
-A respondant's education level was also likely to influence answers to other important questions. <br>
+A respondant's education level was also likely to influence answers to other important questions. <br><br>
 1: How closely have you been following news about the outbreak of the coronavirus strain known as COVID-19?
 <br>
 <br>
