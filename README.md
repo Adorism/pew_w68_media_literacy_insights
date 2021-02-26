@@ -17,7 +17,7 @@ The dataset consists of 146 columns and 9654 rows. Each row represents a survey 
 Other quesitons in this survey addressed racial tensions, pandemic-related issues, and the election cycle. 
 
 
-More information about the columns I chose to investigate can be found here. [Link to Column Data](https://github.com/Adorism/pew_w68_media_literacy_insights/blob/main/data/column_descriptions.md"Column Data")
+More information about the columns I chose to investigate can be found here. [Link to Column Data](https://github.com/Adorism/pew_w68_media_literacy_insights/blob/main/data/column_descriptions.md "Column Data")
 
 ## Process and Methodology
 The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used Spearman's Rank Order Correlation to examine relationships between pairs of variables. 
