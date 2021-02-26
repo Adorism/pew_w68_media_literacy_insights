@@ -54,4 +54,4 @@ df68 = pd.DataFrame(w68spss)
 #viz_plots.horizon_bars()
 
 chis = ContTabs(df=df68, q_cols=answers, dem_cols=facets)
-chis.CramChi
+chis.cram_chi()

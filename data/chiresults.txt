@@ -1,1 +1,1 @@
-Below are my Cramer's V Chi Square test results: 
+#This is the test file that the cramer_chi.py file will write to when it is properly functioning. Each time it's run, it will append to this document. 
