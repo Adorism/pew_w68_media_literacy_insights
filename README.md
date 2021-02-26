@@ -3,17 +3,24 @@
 ![Intro image with a cellphone opened to headlines and the guiding question for this dataset exploration](./images/News%20Media%20Literacy.png)
 
 ## Background
-For the past five years, I have worked as a school librarian teaching information literacy to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my job, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic. 
+For the past five years, I have worked as a school librarian teaching information literacy skills to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my this, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic and I often find myself wondering what the factors are that make us more or less prone to accepting faulty information. What are the factors that play into making it more difficult ot find good information? Durint the pandemic, the importance of being able to navigate all kinds of media in order to find trustworthy information, is underscored. 
+
+What factors are the most significant indicators that a population will have a difficult time finding their way through today's information landscape in search of vital information? Addtionally, I wonder, if there are demographic factors playing an important role in fact fining and media use, is there anything we can do to improve the outcomes for those demographics?
+
 <br>
-I am using survey information made available by the PEW research center's American Trends Panel: Wave 68 to seek insights on demographic factors as they relate to media literacy issues. I was excited to see that this dataset contains survey questions relating to media consumption as it related to coverage of the COVID-19 pandemic. 
+In oreder to address my questions, I used survey information made available by the PEW research center's American Trends Panel: Wave 68 to seek insights on demographic factors as they relate to media literacy issues. I was excited to see that this dataset contains survey questions relating to media consumption as it related to coverage of the COVID-19 pandemic. 
 
 ## Data
-My dataset consists of 146 columns and 9654 rows. Each row represents a survey respondent. For the purposes of my analysis, I have pulled out 26 rows to examine the data more closely. 15 of those rows are categorized answers to survey questions relating to media coverage of the pandemic. The other ten rows list demographic qualities of respondents. The survey questions I chose to focus on are specifically related to the consumption of news and media literacy. 
 
-More information about the columns I chose to investigate can be found in a seperate .md file in the data directory. 
+The dataset consists of 146 columns and 9654 rows. Each row represents a survey respondent. For the purposes of my analysis, I pulled out 15 rows to examine more closely. Twelve of those rows are categorized answers to survey questions relating to media and the pandemic. The other three rows (Education Level Attained, Party Affiliation, Metropolitan or Non-Metropolitan Residency) list demographic qualities of respondents . I chose the quesitons that were most specifically related to the consumption of news and other online media.
+
+Other quesitons in this survey addressed racial tensions, pandemic-related issues, and the election cycle. 
+
+
+More information about the columns I chose to investigate can be found here. [Column Data](https://github.com/Adorism/pew_w68_media_literacy_insights/blob/main/data/column_descriptions.md "Column Data")
 
 ## Process and Methodology
-The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used Spearman's Rank Order Correlation to examine relationships between pairs of variables. 
+The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) and [Pearson's Chi-Squared Test] (https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) to examine relationships between pairs of variables. 
 <br><br>
 Graphing<br>
 Explanation of contingency tables<br>
@@ -28,6 +35,8 @@ Cramer's V Chi-square statistic: measures the strength of association between tw
 ## Future Considerations
 <br>
 From a technical perspective: 
+
+I know that there is a sizeable industry focused solely on administering and interpreting surveys. 
 
 There are incredibly useful data vizualization tools on the market that can enhance the readability of the charts I created, making the message more clear. One of those, which I tested out, is called "Flourish" (hyperlink it) and I was curious to try it out because I saw some interesting vizualizations on the web that had been created using this tool. I was looking, specifically, for a tool that could approximate the approach of many vizualizations that PEW Research creates using their own datasets, where a horizontal stacked barchart has a mid-point signifying a shift from positive to negative values. And example of such a chrt can be found here. https://www.pewresearch.org/politics/?attachment_id=20077157 When I used normalized values from contingency tables as the input for a graph on Flourish, I was able to create a rough, albeit imperfect approximation of the way that data is displayed in the PEW chart I linked. I want to know more about chart building tools in Python to see if similar graphing capabilities exist using Python. 
 
