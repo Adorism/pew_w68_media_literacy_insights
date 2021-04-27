@@ -3,18 +3,18 @@
 ![Intro image with a cellphone opened to headlines and the guiding question for this dataset exploration](./images/News%20Media%20Literacy.png)
 
 ## Background
-For the past five years, I have worked as a school librarian teaching information literacy skills to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my this, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic and I often find myself wondering what the factors are that make us more or less prone to accepting faulty information. What are the factors that play into making it more difficult ot find good information? Durint the pandemic, the importance of being able to navigate all kinds of media in order to find trustworthy information, is underscored. 
+For the past five years, I have worked as a school librarian teaching information literacy skills to students in grades PK-12. Often, my instruction focuses on media literacy. Because of my this, I have been keenly aware of the challenges involved in discerning factual information from information that is sensational, misleading, faulty, or propagandistic and I often find myself wondering what the factors are that make us more or less prone to accepting faulty information. What are the factors that play into making it more difficult ot find good information? During the pandemic, the importance of being able to navigate all kinds of media in order to find trustworthy information is underscored. 
 
-What factors are the most significant indicators that a population will have a difficult time finding their way through today's information landscape in search of vital information? Addtionally, I wonder, if there are demographic factors playing an important role in fact fining and media use, is there anything we can do to improve the outcomes for those demographics?
+What factors are the most significant indicators that a population will have a difficult time finding their way through today's information landscape in search of vital information? Additionally, I wonder if there are demographic factors playing an important role in fact finding and media use, is there anything we can do to improve the outcomes for those demographics?
 
 <br>
-In oreder to address my questions, I used survey information made available by the PEW research center's American Trends Panel: Wave 68 to seek insights on demographic factors as they relate to media literacy issues. I was excited to see that this dataset contains survey questions relating to media consumption as it related to coverage of the COVID-19 pandemic. 
+In order to address my questions, I used survey information made available by the PEW research center's American Trends Panel: Wave 68 to seek insights on demographic factors as they relate to media literacy issues. I was excited to see that this dataset contains survey questions relating to media consumption as it relates to coverage of the COVID-19 pandemic. 
 
 ## Data
 
-The dataset consists of 146 columns and 9654 rows. Each row represents a survey respondent. For the purposes of my analysis, I pulled out 15 rows to examine more closely. Twelve of those rows are categorized answers to survey questions relating to media and the pandemic. The other three rows (Education Level Attained, Party Affiliation, Metropolitan or Non-Metropolitan Residency) list demographic qualities of respondents . I chose the quesitons that were most specifically related to the consumption of news and other online media.
+The dataset consists of 146 columns and 9654 rows. Each row represents a survey respondent. For the purposes of my analysis, I pulled out 15 columns to examine more closely. Twelve of those rows are categorized answers to survey questions relating to media and the pandemic. The other three columns (Education Level Attained, Party Affiliation, Metropolitan or Non-Metropolitan Residency) list demographic qualities of respondents . I chose the questions that were most specifically related to the consumption of news and other online media.
 
-Other quesitons in this survey addressed racial tensions, pandemic-related issues, and the election cycle. 
+Other questions in this survey addressed racial tensions, pandemic-related issues, and the election cycle. 
 
 
 More information about the columns I chose to investigate can be found here. [Column Data](https://github.com/Adorism/pew_w68_media_literacy_insights/blob/main/data/column_descriptions.md "Column Data")
@@ -27,7 +27,7 @@ One of my expectations did not hold up to scrutiny. I had expected to see more e
 <br><br>
 ![Non-Significant finding](./images/image12.png)
 <br><br>
-As I guessed, there were questions for which people belonging to different political parties had a noticeable pattern of different answers. However, the degree of signifigance for this demographic facet was not as strong as I had guessed it would be. 
+As I guessed, there were questions for which people belonging to different political parties had a noticeable pattern of different answers. However, the degree of signifigance for this demographic facet was not as strong as I had hypothesized it would be. 
 The most stark difference when taking this demographic feature into account can be seen in the answers to the following question: How often, if ever, do you think the news media gets the facts right about the coronavirus pandemic?<br>
 ![Most Significant Party-Related finding](./images/image6.png)
 <br>
