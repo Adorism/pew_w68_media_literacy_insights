@@ -23,11 +23,11 @@ More information about the columns I chose to investigate can be found here. [Co
 The survey results are encoded and answers are categorical, rather than truly numeric. Therefore, I used [contingency tables](https://en.wikipedia.org/wiki/Contingency_table) and [Pearson's Chi-Squared Test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) to examine relationships between pairs of variables. 
 
 In most cases, whether the contingency tables were normalized or not, I saw a trend in the demographic columns. 
-One of my expectations did not hold up to scrutiny. I had expected to see more evidence of a correlationi between non-metropolitan residency and difficulty navigating the media. Instead, I saw very uniform distribution in answering patterns for metropolitan and non-metropolitan residents. In fact, there is one question where that demographic facet was most influential, regarding the difficulty of finding local news relating to the pandemic. The chi-number is small. The graph indicates hardly any variation at all. Even at it's most significant, metropolitan and non-metropolitan residents show hardly any difference in the ways they answered these questions. 
+One of my expectations did not hold up to scrutiny. I had expected to see more evidence of a correlation between non-metropolitan residency and difficulty navigating the media. Instead, I saw a very uniform distribution in answering patterns for metropolitan and non-metropolitan residents. In fact, there is one question where that demographic facet was most influential, regarding the difficulty of finding local news relating to the pandemic. The chi-number is small. The graph indicates hardly any variation at all. Even at its most significant, metropolitan and non-metropolitan residents show hardly any difference in the ways they answered these questions. 
 <br><br>
 ![Non-Significant finding](./images/image12.png)
 <br><br>
-As I guessed, there were questions for which people belonging to different political parties had a noticeable pattern of different answers. However, the degree of signifigance for this demographic facet was not as strong as I had hypothesized it would be. 
+As I guessed, there were questions for which people belonging to different political parties had a noticeable pattern of different answers. However, the degree of significance for this demographic facet was not as strong as I had hypothesized it would be. 
 The most stark difference when taking this demographic feature into account can be seen in the answers to the following question: How often, if ever, do you think the news media gets the facts right about the coronavirus pandemic?<br>
 ![Most Significant Party-Related finding](./images/image6.png)
 <br>
@@ -35,12 +35,12 @@ The most stark difference when taking this demographic feature into account can 
 
 ## Key Insights
 You may have guessed it by now: the most significant demographic facet of this dataset in matters related to navigating media concerning the pandemic is educational level!
-As years of education went up, the likelihood that a person might believe the consipracy theory portrayed in "Plandemic" went down. 
+As years of education went up, the likelihood that a person might believe the conspiracy theory portrayed in "Plandemic" went down. 
 <br>
 <br>
 ![Plandemic True](./images/image3.png)<br><br>
 
-A respondant's education level was also likely to influence answers to other important questions. <br><br>
+A respondent's education level was also likely to influence answers to other important questions. <br><br>
 1: How closely have you been following news about the outbreak of the coronavirus strain known as COVID-19?
 <br>
 <br>
@@ -65,11 +65,11 @@ A respondant's education level was also likely to influence answers to other imp
 <br>
 <br>
 ![Conspiracy](./images/image8.png)<br><br>
-7: As you may know, an onine video called "Plandemic" has recieved attention for making claims that the coronavirus outbreak was planned by powerful people. Have you personally watched all or part of this online video called "Plandemic"?
+7: As you may know, an online video called "Plandemic" has received attention for making claims that the coronavirus outbreak was planned by powerful people. Have you personally watched all or part of this online video called "Plandemic"?
 <br>
 <br>
 ![Did You Watch Plandemic?](./images/image1.png)<br><br>
-All said, education level was most frequently the most signifigant out of the three demographic facets I investigated. 
+All said, education level was most frequently the most significant out of the three demographic facets I investigated. 
 <br>
 <br>
 ![Chi-Norm](./images/image4.png)<br><br>
@@ -77,18 +77,18 @@ All said, education level was most frequently the most signifigant out of the th
 ![Chi-non-Norm](./images/image10.png)<br>
 
 <br>
-I think this is a good sign that media literacy is something we can work to address in actionable ways. If we, as a society, invest in education and value education, we can improve the ability of people to navigate an increasinly complex information ecosystem. 
+I think this is a good sign that media literacy is something we can work to address in actionable ways. If we, as a society, invest in education and value education, we can improve the ability of people to navigate an increasingly complex information ecosystem. 
 
 ## Future Considerations
 <br>
 From a technical perspective: 
 
-I know that there is a sizeable industry focused solely on administering and interpreting surveys. I want to learn more about the purpose-built tools used in that industry and the methodologies they employ in seeking quantifiable meaning in datasets. 
+I know that there is a sizable industry focused solely on administering and interpreting surveys. I want to learn more about the purpose-built tools used in that industry and the methodologies they employ in seeking quantifiable meaning in datasets. 
 
-There are incredibly useful data vizualization tools on the market that can enhance the readability of the charts I created, making the message more clear. One of those, which I tested out, is called "Flourish" and I was curious to try it out because I saw some interesting vizualizations on the web that had been created using this tool. I was looking, specifically, for a tool that could approximate the approach of many vizualizations that PEW Research creates using their own datasets, where a horizontal stacked barchart has a mid-point signifying a shift from positive to negative values. And example of such a chrt can be found here. [Pew-Graph](https://www.pewresearch.org/politics/?attachment_id=20077157) When I used normalized values from contingency tables as the input for a graph on Flourish, I was able to create a rough, albeit imperfect approximation of the way that data is displayed in the PEW chart I linked. I want to know more about chart building tools in Python to see if similar graphing capabilities exist using Python. 
+There are incredibly useful data visualization tools on the market that can enhance the readability of the charts I created, making the message more clear. One of those, which I tested out, is called "Flourish" and I was curious to try it out because I saw some interesting visualizations on the web that had been created using this tool. I was looking, specifically, for a tool that could approximate the approach of many visualizations that PEW Research creates using their own datasets, where a horizontal stacked bar chart has a midpoint signifying a shift from positive to negative values. An example of such a chart can be found here. [Pew-Graph](https://www.pewresearch.org/politics/?attachment_id=20077157) When I used normalized values from contingency tables as the input for a graph on Flourish, I was able to create a rough, albeit imperfect approximation of the way that data is displayed in the PEW chart I linked. I want to know more about chart building tools in Python to see if similar graphing capabilities exist using Python. 
 
 From the perspective of subject-area interest:
-I want to know more about practical ways to make news media more useful to people in politically charged times and also, to investigate teachable strategies for news and online media consumers to improve meta-cognition in determining the trustworthines of an information source. More of this instruction should happen at the K-12 level. 
+I want to know more about practical ways to make news media more useful to people in politically charged times and also, to investigate teachable strategies for news and online media consumers to improve meta-cognition in determining the trustworthiness of an information source. More of this instruction should happen at the K-12 level. 
 
 ## Code
 My scripts were written to automate the tedious job of creating visualizations and calculations for each demographic matched up against each question. I have two graph-making classes, which function very similarly to one another, and a chi-square test which appends the results to a text file. 
@@ -121,3 +121,5 @@ My scripts were written to automate the tedious job of creating visualizations a
     
     ## Image Credit
     Source for the background image in my "cover image": <span>Photo by <a href="https://unsplash.com/@thenewmalcolm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Obi Onyeador</a> on <a href="https://unsplash.com/s/photos/news?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+
